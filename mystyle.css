@@ -1,0 +1,86 @@
+body {
+    background-color: #121212;
+    
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: optima;
+  }
+
+  h2 {
+    color: white;
+    text-align:center;
+    font-size:30px;
+    font-family: verdana;
+  }
+
+   h3 {
+    color: white;
+    text-align:center;
+    font-size:30px;
+    font-family: optima;
+  }
+  
+  p {
+    color: white;
+    text-align:center;
+    font-family: optima;
+    font-size: 20px;
+    line-height: 200%;
+  
+  }
+
+  li {
+    color: white;
+    text-align:left;
+    font-family: optima;
+    font-size: 18px;
+    width:600px;
+  }
+
+  div {
+    text-align: center;
+    width:60%;
+    margin-right:auto;
+    margin-left:auto;
+  }
+
+  img {
+    vertical-align:text-top;
+  }
+
+.imdblogo {
+  vertical-align:text-bottom;
+  height:22px;
+}
+  .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+  .grid-container4 {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  justify-content: start;
+}
+
+a:link {color: white;}
+a:visited {color: white;}
+a:link {color: white;}
+a:active {color: white;}
+
+a  {
+  text-decoration:none;
+  font-size:24px;
+  font-family:verdana;
+}
+
+.menubar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr;
+  justify-content: center;
+}
