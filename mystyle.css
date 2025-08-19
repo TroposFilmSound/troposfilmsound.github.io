@@ -1,6 +1,13 @@
 body {
-    background-color: #121212;
     
+    background-color:#121212;
+  }
+
+  .tropos {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
   }
   
   h1 {
@@ -20,14 +27,14 @@ body {
     color: white;
     text-align:center;
     font-size:30px;
-    font-family: optima;
+    font-family: Segoe UI;
   }
   
   p {
     color: white;
     text-align:center;
-    font-family: optima;
-    font-size: 20px;
+    font-family: Segoe UI;
+    font-size: 16px;
     line-height: 200%;
   
   }
@@ -42,7 +49,7 @@ body {
 
   div {
     text-align: center;
-    width:60%;
+    width: 90%;
     margin-right:auto;
     margin-left:auto;
   }
@@ -53,16 +60,18 @@ body {
 
 .imdblogo {
   vertical-align:text-bottom;
-  height:22px;
+  height:20px;
 }
   .grid-container {
   display: grid;
+  max-width: 500px;
+  margin: auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   justify-content: center;
 }
 
-  .grid-container4 {
+.grid-container4 {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px;
   justify-content: start;
@@ -75,12 +84,39 @@ a:active {color: white;}
 
 a  {
   text-decoration:none;
-  font-size:24px;
-  font-family:verdana;
 }
 
 .menubar {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr 2fr;
-  justify-content: center;
+  height: 120px;
+  justify-content: left;
+  text-align: right;
+}
+
+.otsake {
+  display: grid;
+  max-width: 600px;
+  margin: auto;
+  height: 150px;
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.mainbody {
+  max-width: 600px;
+  margin: auto;
+  background-color: #121212;
+}
+
+.topbar {
+  width: 100%;
+  background-color:#121212;
+}
+
+.menuitem {
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
 }
