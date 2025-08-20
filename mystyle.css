@@ -121,3 +121,34 @@ a  {
   font-weight: bold;
   text-align: right;
 }
+
+
+.cvitem {
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.cvmovietitle {
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+}
+
+.cvmovieinfo {
+  font-family: verdana;
+  font-size: 11px;
+  text-align: left;
+  margin: 0;
+}
+
+.cvfestivals {
+  font-family: verdana;
+  font-size: 11px;
+  text-align: left;
+  font-style: italic;
+  margin: 0;
+}
