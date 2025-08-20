@@ -99,7 +99,7 @@ a  {
   width: 90%;
   margin: auto;
   height: 150px;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 2fr 1.1fr;
   align-items: top;
 }
 
