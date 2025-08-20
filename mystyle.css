@@ -88,18 +88,18 @@ a  {
 
 .menubar {
   display: grid;
-  height: 150px;
+  height: 180px;
   justify-content: left;
   text-align: right;
 }
 
 .otsake {
   display: grid;
-  max-width: 400px;
+  max-width: 300px;
   width: 90%;
   margin: auto;
   height: 150px;
-  grid-template-columns: 2fr 1.1fr;
+  grid-template-columns: 2fr 2.3fr;
   align-items: top;
 }
 
