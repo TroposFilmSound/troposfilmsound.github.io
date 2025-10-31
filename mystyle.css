@@ -13,7 +13,8 @@ body {
   h1 {
     color: white;
     text-align: center;
-    font-family: optima;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   h2 {
@@ -81,7 +82,7 @@ a:link {color: white;}
 a:visited {color: white;}
 a:link {color: white;}
 a:active {color: white;}
-a:hover {text-decoration: underline}
+
 
 a  {
   text-decoration:none;
