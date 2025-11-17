@@ -1,6 +1,6 @@
 body {
     
-    background-color:#121212;
+    background-color:#1f1e1e;
   }
 
   .tropos {
@@ -91,7 +91,7 @@ body {
 a:link {color: white;}
 a:visited {color: white;}
 a:link {color: white;}
-a:active {color: white;}
+a:active {color: white; }
 
 
 a  {
@@ -103,6 +103,7 @@ a  {
   height: 180px;
   justify-content: left;
   text-align: right;
+  a:hover {text-decoration: underline;}
 }
 
 .otsake {
@@ -118,13 +119,19 @@ a  {
 .mainbody {
   max-width: 600px;
   margin: auto;
-  background-color: #121212;
+  background-color: #1f1e1e;
 }
 
 .topbar {
   width: 100%;
   margin-top: 30px;
-  background-color:#121212;
+  background-color:#1f1e1e;
+}
+
+.bottombar {
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: #1f1e1e;
 }
 
 .menuitem {
